@@ -4,7 +4,6 @@
 
 .main {
   min-height: 100vh;
-  padding: 4rem 0;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -113,4 +112,17 @@
     width: 100%;
     flex-direction: column;
   }
+}
+
+
+/* cosatm css  */
+
+nav.navmenu ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+nav.navmenu ul li {
+  padding:0 24px ;
+  font-weight: bold;
 }
